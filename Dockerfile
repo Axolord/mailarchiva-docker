@@ -1,9 +1,9 @@
 FROM tomcat:10-jre21 as builder
 
 LABEL maintainer="JoKneeMo <https://github.com/JoKneeMo>"
-LABEL version="9.0.28"
+LABEL version="9.0.30"
 
-ARG MAILARCHIVA_VERSION=9.0.28
+ARG MAILARCHIVA_VERSION=9.0.30
 ARG DEBIAN_FRONTEND=noninteractive
 
 WORKDIR /build
